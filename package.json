@@ -1,0 +1,47 @@
+{
+  "name": "@roomjs/typescript-vue-component-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "clear:lib": "rm -rf lib",
+    "dist": "npm run clear:lib && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/room-js/typescript-vue-component-boilerplate.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "component"
+  ],
+  "author": "Yuri Drabik <yurist38@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/room-js/typescript-vue-component-boilerplate/issues"
+  },
+  "homepage": "https://github.com/room-js/typescript-vue-component-boilerplate#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "1.11.0",
+    "@wessberg/rollup-plugin-ts": "1.1.59",
+    "eslint": "6.0.1",
+    "eslint-plugin-vue-libs": "3.0.0",
+    "rollup": "1.16.6",
+    "rollup-plugin-commonjs": "10.0.1",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-vue": "5.0.1",
+    "typescript": "3.5.2",
+    "vue": "2.6.10",
+    "vue-template-compiler": "2.6.10"
+  },
+  "peerDependencies": {
+    "vue": "^2.0.0"
+  },
+  "dependencies": {
+    "vue-class-component": "^7.0.0",
+    "vue-property-decorator": "^8.0.0"
+  }
+}

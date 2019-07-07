@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./lib",
+    "sourceMap": false,
+    "declaration": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "module": "es2015",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "paths": {
+      "~*": ["./*"]
+    }
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "vue.shims.d.ts"
+  ],
+}

@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": ["plugin:vue-libs/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "extraFileExtensions": [".vue"]
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "indent": ["error", 2]
+  }
+}
