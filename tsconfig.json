@@ -10,7 +10,9 @@
     "module": "es2015",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "allowJs": true,
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "target": "es5",
     "lib": [
       "es2016",
@@ -28,5 +30,5 @@
   ],
   "files": [
     "vue.shims.d.ts"
-  ],
+  ]
 }

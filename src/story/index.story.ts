@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import { storiesOf } from '@storybook/vue';
-import MyComponent from './index.vue';
+import MyComponent from '../index';
 
 storiesOf('MyComponent', module)
   .add('Default', () => ({
