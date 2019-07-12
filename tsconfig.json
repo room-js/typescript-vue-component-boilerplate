@@ -3,7 +3,7 @@
     "baseUrl": "./src",
     "outDir": "./lib",
     "sourceMap": false,
-    "declaration": true,
+    // "declaration": true,
     "strict": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,

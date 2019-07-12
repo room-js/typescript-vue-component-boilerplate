@@ -12,10 +12,16 @@ export default [
       format: 'umd'
     },
     plugins: [
+      typescript({
+        tsconfig: resolvedConfig => ({
+          ...resolvedConfig,
+          declaration: true,
+          allowJs: false,
+        }),
+      }),
       resolve(),
       commonjs(),
       vue(),
-      typescript(),
     ]
   }
 ];
