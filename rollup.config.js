@@ -2,6 +2,7 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import typescript from '@wessberg/rollup-plugin-ts';
 import vue from 'rollup-plugin-vue';
+import sass from 'rollup-plugin-sass';
 
 export default [
   {
@@ -22,6 +23,10 @@ export default [
       resolve(),
       commonjs(),
       vue(),
+      sass({
+        output: true,
+        failOnError: true,
+      }),
     ]
   }
 ];
