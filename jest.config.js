@@ -4,7 +4,7 @@ module.exports = {
   transform: {
     '^.*(ts|tsx)$': 'ts-jest',
     '^.*\\.vue$': 'vue-jest',
-    '^.+\\.(js|jsx)?$': 'babel7-jest',
+    '^.+\\.(js|jsx)?$': 'babel-jest',
   },
   transformIgnorePatterns: [
     'node_modules/(?!(bootstrap-vue)/)',
