@@ -12,6 +12,7 @@ export default [
       dir: 'lib',
       format: 'umd'
     },
+    external: ['vue'],
     plugins: [
       typescript({
         tsconfig: resolvedConfig => ({
